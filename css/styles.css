@@ -34,6 +34,7 @@ body{
     font-size: 14px;
     letter-spacing: 0.03em;
     color: #212121;
+    
 
 }
 img
@@ -156,7 +157,6 @@ padding-top: 0;
 
 
 .hero {
-    font-family: 'Roboto';
     font-weight: 900;
     font-size: 44px;
     line-height: 1.3636; 
@@ -179,9 +179,7 @@ padding-top: 0;
     background-size: cover;
     margin: 0 auto;
     }
-    .icon-wrap{
 
-    }
 .button-section-index
 {
 font-weight: 700;
@@ -255,11 +253,94 @@ text-align: center;
     display: flex;
     gap: 30px;
 }
+.box-trumb:hover:before
+{
+opacity: 1; 
+}
+.box-trumb
+{position: relative;
 
-.box-item
+}
+.box-trumb::before
+{
+    content: "Десктопні додатки";
+    display: inline-block;
+    position: absolute;
+    width: 100%;
+    height: 70px;
+    background-color: rgba(47, 48, 58, 0.8);
+    opacity: 0;
+    text-align: center;
+    font-weight: 700;
+font-size: 14px;
+line-height: calc(16 / 14);
+letter-spacing: 0.03em;
+bottom: 0;
+color: var(--white);
+padding: 27px 107px;
+justify-content: center;
+}
+.box-trumb-second:hover:before
+{
+opacity: 1; 
+}
+.box-trumb-second
+{position: relative;
+
+}
+.box-trumb-second::before
+{
+    content: "Мобільні програми";
+    display: inline-block;
+    position: absolute;
+    width: 100%;
+    height: 70px;
+    background-color: rgba(47, 48, 58, 0.8);
+    opacity: 0;
+    text-align: center;
+    font-weight: 700;
+font-size: 14px;
+line-height: calc(16 / 14);
+letter-spacing: 0.03em;
+bottom: 0;
+color: var(--white);
+padding: 27px 113px;
+justify-content: center;
+}
+.box-trumb-third:hover:before
+{
+opacity: 1; 
+}
+.box-trumb-third
+{position: relative;
+
+}
+.box-trumb-third::before
+{
+    content: "Дизайнерські рішення";
+    display: inline-block;
+    position: absolute;
+    width: 100%;
+    height: 70px;
+    background-color: rgba(47, 48, 58, 0.8);
+    opacity: 0;
+    bottom: 0;
+    text-align: center;
+    font-weight: 700;
+font-size: 14px;
+line-height: calc(16 / 14);
+letter-spacing: 0.03em;
+
+color: var(--white);
+padding: 27px 95px;
+justify-content: center;
+}
+
+    .box-item
 {
     width: calc((100% - 60px)/3);
 }
+
 .item-pers
 {
     width: calc((100% - 9px)/4);
@@ -563,5 +644,61 @@ margin-bottom: 20px;
 .address-wrap
 {
     margin-right: 70px;
+
+}
+.benefits-footer-second
+{
+    font-weight: 700;
+    line-height: calc(16 / 14);
+    text-transform: uppercase;
+    color: var(--white);
+    margin-bottom: 20px;
+    margin-left: 93px;
+}
+.fff
+{
+    
+    display: flex;
+    gap: 12px;
+    justify-content: center;
+align-items: center;
+margin-left: 93px;
+}
+.button-footer
+{
+    padding: 10px 28px;
+background-color: var(--blue);
+border: none;
+border-radius: 4px;
+color: var(--white);
+display: flex;
+justify-content: center;
+cursor: pointer;
+align-items: center;
+font-weight: 700;
+font-size: 16px;
+line-height: calc(30 / 16);
+gap: 10px;
+
+letter-spacing: 0.06em;
+}
+
+.footer-mail-input
+{
+
+width: 358px;
+height: 50px;
+border: 1px solid rgba(255, 255, 255, 0.3);
+border-radius: 4px;
+background-color: transparent;
+font-size: 16px;
+line-height: calc(20 / 16);
+align-items: center;
+
+}
+.icon-footer-button
+{
+    fill: var(--white);
+justify-content: center;
 
 }
