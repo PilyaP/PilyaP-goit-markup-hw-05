@@ -54,7 +54,7 @@
      <div class="container">
 
             <h1 class="hero">Ефективні рішення для вашого бізнесу</h1>
-            <button class="button-section-index" type="button">
+            <button class="button-section-index" type="button" data-modal-open>
             Замовити послугу </button>   
      </div>
         </section>
@@ -116,7 +116,7 @@
             <div class="box-trumb">
                 <img src="./images/box1.jpg" alt="Десктопні програми" width=370  height="294" />
                 <div class="box-block">
-                <h3 class="box-text">Десктопні додатки</h3>
+                <p class="box-text">Десктопні додатки</p>
             </div>
             </div>
             </li>
@@ -124,7 +124,7 @@
             <div class="box-trumb">
                 <img src="./images/box2.jpg" alt="Мобільні програми" width=370  height="294" />
                 <div class="box-block">
-                <h3 class="box-text">Мобільні програми</h3>
+                <p class="box-text">Мобільні програми</p>
             </div>
             </div>
             </li>
@@ -132,7 +132,7 @@
                 <div class="box-trumb">
                 <img src="./images/box3.jpg" alt="Дизайнерські рішення" width=370  height="294" />
                 <div class="box-block">
-                    <h3 class="box-text">Дизайнерські рішення</h3>
+                    <p class="box-text">Дизайнерські рішення</p>
                 </div>
             </div>
             
@@ -418,6 +418,13 @@
                 </ul>
             </div>
         </footer>
+        <div class="backdrop is-hidden" data-modal>
+        <div class="modal"> <button class="modal-close" data-modal-close>
+            <svg svg width="11" height="11">
+                <use href="./images/icons.svg#icon-x"></use>
+            </svg>
+        </button> </div>
+    </div>
         <script src="./js/modal.js"></script>
 </body>
 </html>
